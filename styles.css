@@ -5,8 +5,87 @@
     box-sizing: border-box;
 }
 
-.background {
-    width: 100vw;
-    height: 100vh;
+body {
+    background-image: url("img/fundo.png");
+    background-size: cover;    /*ajusta para cobrir toda a tela */
+    background-repeat: no-repeat; /* evita repetição */
+}
+
+header {
+    width: 100%;
+    height: 120px;
+    position: relative;
+    z-index: 10;
+}
+
+.navbar {
     display: flex;
+    justify-content: space-between; /* logo esquerda | menu direita */
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo img {
+    height: 200px;   /* controla o tamanho */
+    width: auto;    /* mantém proporção */
+    transition: 0.3s;
+}
+
+.logo img:hover {
+    transform: scale(1.1);
+}
+
+.logo {
+    position: absolute;  /* separa do fluxo */
+    top: 30px;           /* distância do topo */
+    left: 50px;          /* distância da esquerda */
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 80px;
+    align-items: center; /* mantém alinhado independente do logo */
+    position: absolute;  /* chave */
+    right: 60px;         /* mantém onde já está */
+    top: 80px;
+    transform: translateY(-50%);
+}
+
+.menu a {
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    position: relative;
+    transition: 0.3s;
+}
+
+.menu a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background: #000000;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+
+.menu a:hover::after {
+    width: 100%;
+}
+
+.menu a:hover {
+    color: #000000;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    margin-top: 120px;                 /* empurra para baixo do header */
+    background-image: url("img/banner.jpeg");
+    background-size: cover;        /* ESSENCIAL */
+    background-position: center;
+    background-repeat: no-repeat;
 }
