@@ -9,6 +9,7 @@ body {
     background-color: black;
     background-size: cover;    /*ajusta para cobrir toda a tela */
     background-repeat: no-repeat; /* evita repetição */
+    overflow-x: hidden;
 }
 
 header {
@@ -117,7 +118,6 @@ header {
 
 .hufds {     /* Estilo do título "Próximo jogo" */
     font-weight: 550;
-    display: flex;
 }
 
 .siren {     /* Informações do próximo jogo */
