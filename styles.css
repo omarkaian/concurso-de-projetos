@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url("img/fundo.png");
+    background-color: black;
     background-size: cover;    /*ajusta para cobrir toda a tela */
     background-repeat: no-repeat; /* evita repetição */
 }
@@ -55,7 +55,7 @@ header {
 .menu a {
     font-size: 30px;
     text-decoration: none;
-    color: white;
+    color: #ffffff;
     font-weight: 600;
     position: relative;
     transition: 0.3s;
@@ -66,7 +66,7 @@ header {
     position: absolute;
     width: 0%;
     height: 2px;
-    background: #000000;
+    background: #ffffff;
     left: 0;
     bottom: -5px;
     transition: 0.3s;
@@ -77,39 +77,35 @@ header {
 }
 
 .menu a:hover {
-    color: #000000;
+    color: #C52613;
 }
 
-.banner {
+.dogfk {
     width: 100%;
     height: 100vh;
     margin-top: 120px;                 /* empurra para baixo do header */
-    background-image: url("img/banner.jpeg");
+    background-color: #C52613;
     background-size: cover;        /* ESSENCIAL */
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.proximo-jogo {
+.ycszs {
+    width: 100%;
+    height: 400px;
+    background-color: #afadad;
+    display: flex;
+}
+
+.rwsxd {
     width: 500px;
     height: 550px;
-    margin-top: 25px;
-    margin-left: 50px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: #ffffff;
+    
 }
 
-.time1, .time2 {
-    width: 150px;
-    height: 150px;
-    margin-top: 15%;
-}
-
-h3.proximo-jogo {
-    width: auto;
-    height: 100px;
-}
-
-h1.proximo-jogo {
-    width: auto;
-    height: auto;
+.weftp {
+    width: 500px;
+    height: 550px;
+    background-color: #ffffff;
 }
