@@ -157,7 +157,7 @@ footer {
     height: 250px;
     margin-top: 50px;
     color: #ffffff;
-    background: linear-gradient(to bottom, #000000 40%, #C52613 80%);
+    background: linear-gradient(to bottom, #000000 10%, #C52613 80%);
 }
 
 .footer-geral {
