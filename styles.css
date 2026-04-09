@@ -113,7 +113,6 @@
     overflow: hidden;
     max-width: 100%;
     max-height: 100%;
-    
 }
 
 .weftp {     /* Tabela de Classificação */
@@ -124,25 +123,22 @@
     height: 350px;
     background-color: #ffffff;
     border: none;
-    
 }
 
 .artigos {
     display: flex;
-    width: 60vw;
+    width: 80vw;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-    margin-left: 20vw;
+    margin-left: 10vw;
     gap: 50px;
-
 }
 
 .futebol {
     width: 540px;
     height: 555px;
-    
 }
 
 .basquete {
@@ -157,20 +153,24 @@
 
 footer {
     display: flex;
-    justify-content: center;
-    align-items: center;
     justify-content: space-evenly;
+    align-items: center;
     height: 250px;
     margin-top: 50px;
     color: #ffffff;
-    background-color: #C52613;
-    
+    background: linear-gradient(to bottom, #000000 40%, #C52613 80%);
+}
+
+.footer-geral {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 15px;
 }
 
 .footer-links-uteis a {
     color: #ffffff;
     text-decoration: none;
-    
 }
 
 .footer-redes-sociais {
@@ -181,11 +181,4 @@ footer {
 .footer-redes-sociais a {
     color: #ffffff;
     text-decoration: none;
-
 }
-
-
-
-
-
-
