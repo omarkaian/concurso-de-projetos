@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     /*outline: 1px solid red; /* para visualizar os blocos */
+    
 }
 
 .navbar {
@@ -128,20 +129,59 @@
 
 .artigos {
     display: flex;
+    width: 60vw;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     margin-top: 50px;
+    margin-left: 20vw;
     gap: 50px;
 
 }
 
 .futebol {
     width: 540px;
-    height: 470px;
+    height: 555px;
+    
 }
 
 .basquete {
     width: 540px;
-    height: 470px;
+    height: 555px;
+}
+
+.volei {
+    width: 540px;
+    height: 555px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 250px;
+    margin-top: 50px;
+    color: #ffffff;
+    background-color: #C52613;
+    
+}
+
+.footer-links-uteis a {
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+
+.footer-redes-sociais {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-redes-sociais a {
+    color: #ffffff;
+    text-decoration: none;
+
 }
 
 
